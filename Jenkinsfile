@@ -1,10 +1,11 @@
 pipeline {
     agent none
-    stages {
-        tools {
-            docker 'latest'
-        }
+    tools {
+        docker 'latest'
+    }
 
+
+    stages {
         stage('Docker Build') {
           agent any
           steps {
