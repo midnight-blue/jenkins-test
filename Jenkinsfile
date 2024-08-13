@@ -4,6 +4,7 @@ pipeline {
           agent any
           steps {
             sh 'docker build -t openid:latest .'
-         }
+          }
+        }
     }
 }
