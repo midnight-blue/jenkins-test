@@ -1,7 +1,7 @@
 pipeline {
     agent none
     tools {
-        dockerTool 'latest'
+        docker 'latest'
     }
 
 
